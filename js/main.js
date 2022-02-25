@@ -7,12 +7,9 @@ function isRandomInteger(min, max) {
 }
 isRandomInteger();
 
-
 // Задача 2
-function isCheckLineLength (checkString, maxLength) {
-  if (checkString.length <= maxLength) {
-    return true;
-  }
-  return false;
-}
+const isCheckLineLength = (checkString, maxLength) => (checkString.length <= maxLength) ? true : false;
 isCheckLineLength();
+
+// У меня все время вылазила ошибка "Uncaught TypeError: Cannot read properties of undefined (reading 'length')"
+// Коллега посоветовал добавить "?" для проверки на null, такое допустимо?
