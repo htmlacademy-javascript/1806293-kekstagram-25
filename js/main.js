@@ -8,7 +8,7 @@ function isRandomInteger(min, max) {
 isRandomInteger();
 
 // Задача 2
-const isCheckLineLength = (checkString, maxLength) => (checkString.length <= maxLength) ? true : false;
+const isCheckLineLength = (checkString, maxLength) => (checkString?.length <= maxLength) ? true : false;
 isCheckLineLength();
 
 // У меня все время вылазила ошибка "Uncaught TypeError: Cannot read properties of undefined (reading 'length')"
