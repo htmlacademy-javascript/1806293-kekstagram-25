@@ -5,10 +5,10 @@
 const getRandomInteger = (min, max) => 
   min + Math.floor(Math.random() * (max + 1 - min));
 
-getRandomInteger();
+getRandomInteger(3, 8);
 
 
 // Задача 2
-const checkLineLength = (checkString, maxLength) => checkString?.length <= maxLength;
+const checkLineLength = (checkString, maxLength) => checkString.length <= maxLength;
 
-checkLineLength();
+checkLineLength("the_string_being_checked", 16);
