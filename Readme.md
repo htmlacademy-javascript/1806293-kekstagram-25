@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Дмитрий Галушко](https://up.htmlacademy.ru/javascript/25/user/1806293).
-* Наставник: [Максим Прусаков](https://up.htmlacademy.ru/javascript/25/user/83559).
+* Студент: [Дмитрий Галушко](https://htmlacademy.ru/profile/id1806293).
+* Наставник: [Герман Топалов](https://htmlacademy.ru/profile/topalov).
 
 ---
 
